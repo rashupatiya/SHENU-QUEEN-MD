@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split("94710109956,")
+global.owner = process.env.OWNER_NUMBER.split("94762021150,")
 global.mongodb = process.env.MONGODB_URI || "mongodb://mongo:cCBe2fBeA26f4eEbDbC2gD64226EHFg3@viaduct.proxy.rlwy.net:34483"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
@@ -12,22 +12,22 @@ global.allowJids = process.env.ALLOW_JID ||'120363165030810524@g.us' ;
 global.github = 'https://github.com/CYBER-THUSHAN/SHENU-QUEEN-V1'
 global.location = 'Sri Lanka'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94710109956'
-global.devs = '94710109956';
+global.sudo = process.env.SUDO || '94762021150'
+global.devs = '94762021150';
 global.INBOX_BLOCK = 'true'
 global.TIMEZONE = 'Asia/Colombo' 
 global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/daa9647f2139e462e4316.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'SHENU-QUEEN-MD 🧚' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'CYBER-THUSHAN' : process.env.OWNER_NAME,
-  ownernumber: process.env.OWNER_NUMBER === undefined ? '94710109956' : process.env.OWNER_NUMBER,
+  botname:   process.env.BOT_NAME === undefined ? 'RASHU-QUEEN-MD 🧚' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'RASHU MUSIC' : process.env.OWNER_NAME,
+  ownernumber: process.env.OWNER_NUMBER === undefined ? '94762021150' : process.env.OWNER_NUMBER,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
-  author:  process.env.PACK_INFO.split(";")[0] === undefined ? '🚨🧚‍♀️𝘚𝘏𝘌𝘕𝘜 𝘘𝘜𝘌𝘌𝘕:𝘊𝘠𝘉𝘌𝘙-𝘛𝘏𝘜𝘚𝘏𝘈𝘕' : process.env.PACK_INFO.split(";")[0],
-  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
-  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '𝗦𝗛𝗘𝗡𝗨 𝗤𝗨𝗘𝗘𝗡 𝗠𝗗' : process.env.PACK_INFO.split(";")[1],	
+  author:  process.env.PACK_INFO.split(";")[0] === undefined ? '🚨🧚‍♀️𝘙𝘈𝘚𝘏𝘜 𝘘𝘜𝘌𝘌𝘕:𝘙𝘈𝘚𝘏𝘜 𝘔𝘜𝘚𝘐𝘊' : process.env.PACK_INFO.split(";")[0],
+  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
+  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '𝗥𝗔𝗦𝗛𝗨 𝗤𝗨𝗘𝗘𝗡 𝗠𝗗' : process.env.PACK_INFO.split(";")[1],	
   dl_limit: process.env.DL_SIZE || '350',
-  autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
+  autoreaction:  process.env.AUTO_REACTION  === undefined ? true : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
   antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
